@@ -1,0 +1,62 @@
+body{
+	margin: 0;
+	background-color: white;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+a:hover{
+	color: red;
+}
+
+.header{
+	padding: 20px;
+	background-color: white;
+	font-size: 1.4em;
+	font-weight: bold;
+	font-family: MV Boli;
+}
+
+.nav{
+	background-color: #eaeaea;
+
+}
+
+.nav ul{
+	margin: 0;
+	list-style-type: none;
+	padding: 10px;
+}
+
+.nav ul li{
+
+  display: inline-block;
+	width: 18.5%;
+	text-align: center;
+}
+
+.image {
+	height: 350px;
+	background-image: url("/image/shirt.jpg");
+	background-size: cover;
+	background-position: 0 -250px;
+	border-top: 5px solid black;
+	border-bottom : 5px solid black;
+}
+
+.content {
+text-align: center;
+}
+
+.footer{
+	margin:0;
+	padding:10px;
+	background-color: #eaeaea;
+	font-family: MV Boli;
+	text-align: center;
+	border-top: 5px solid black;
+}

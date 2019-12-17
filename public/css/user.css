@@ -1,0 +1,245 @@
+body{
+	margin: 0;
+	background-color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+button{
+	background-color: #2a2a2a;
+	cursor: pointer;
+	color: white;
+	border: 1px solid #eaeaea;
+	border-radius: 3px;
+	padding: 5px 10px;
+	transition: 0.2s;
+}
+
+button:hover{
+	background-color: white;
+	color: #2a2a2a;
+	border: 1px solid #2a2a2a;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+a:hover{
+	color: red;
+}
+
+.header{
+	padding: 20px;
+	background-color: white;
+	font-size: 1.4em;
+	font-weight: bold;
+	font-family: MV Boli;
+}
+
+.nav{
+
+	background-color: #eaeaea;
+}
+
+.nav ul{
+	margin: 0;
+	list-style-type: none;
+	padding: 10px;
+}
+
+.nav ul li{
+	display: inline-block;
+	width: 23.5%;
+	text-align: center;
+
+}
+
+.image {
+	height: 350px;
+	background-image: url("/image/shirt.jpg");
+	background-size: cover;
+	background-position: 0 -250px;
+	border-top: 5px solid black;
+	border-bottom : 5px solid black;
+}
+
+.content {
+	width: 80%;
+	margin: 0 auto;
+	text-align:  center;
+	padding: 40px 0;
+}
+
+form{
+	box-sizing: border-box;
+	width: 100%;
+	border-radius: 5px;
+	padding: 20px 50px;
+	border-top: 1px solid #2a2a2a;
+	border-bottom : 1px solid #2a2a2a;
+	border-left: 1px solid #2a2a2a;
+	border-right: 1px solid #2a2a2a;
+	background-color: #eaeaea;
+}
+
+form table tr td{
+	text-align: left;
+}
+
+.image1{
+	height: 240px;
+	width: 400px;
+	background-image: url("/image/crew.jpg");
+	float: left;
+	margin-bottom: 40px;
+	border-top: 2px solid black;
+	border-bottom : 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+
+}
+
+.image2{
+
+	height: 240px;
+	width: 400px;
+	background-image: url("/image/vneck.jpg");
+	float: right;
+	margin-bottom: 40px;
+	border-top: 2px solid black;
+	border-bottom : 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+
+}
+
+.image3{
+	display: block;
+	height: 240px;
+	width: 380px;
+	background-image: url("/image/long.jpg");
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	border-top: 2px solid black;
+	border-bottom : 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+
+}
+
+.image4{
+	height: 240px;
+	width: 400px;
+	background-image: url("/image/shortblack.jpg");
+	float: left;
+	margin-bottom: 40px;
+	border-top: 2px solid black;
+	border-bottom : 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+.image5{
+	height: 240px;
+	width: 400px;
+	background-image: url("/image/black.jpg");
+	float: right;
+	margin-bottom: 40px;
+	border-top: 2px solid black;
+	border-bottom : 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+.image6{
+	display: block;
+	height: 240px;
+	width: 380px;
+	background-image: url("/image/longblack.png");
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	border-top: 2px solid black;
+	border-bottom : 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+.text{
+	text-align: center;
+
+}
+
+.contactus{
+	height: 240px;
+	width: 400px;
+	border-top: 2px solid black;
+	border-bottom : 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	background-color: #eaeaea;
+	position:relative;
+
+	margin:auto;
+	margin-bottom: 50px;
+	padding-bottom: 0;
+}
+
+.login{
+	height: 240px;
+	width: 400px;
+	border-top: 2px solid black;
+	border-bottom : 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	background-color: #eaeaea;
+	position:relative;
+
+	margin:auto;
+	margin-bottom: 50px;
+	padding-bottom: 0;
+}
+
+.register{
+	height: 440px;
+	width: 800px;
+	border-top: 2px solid black;
+	border-bottom : 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	background-color: #eaeaea;
+	position:relative;
+
+	margin:auto;
+	margin-bottom: 50px;
+	padding-bottom: 0;
+
+}
+
+.footer{
+	margin:0;
+	padding:10px;
+	background-color: #eaeaea;
+	font-family: MV Boli;
+	text-align: center;
+	border-top: 5px solid black;
+
+}
+
+.container{
+	width: 80%;
+	padding: 20px;
+	border-radius: 2px;
+	border: 1px solid white;
+	background-color: #fafafa;
+	margin: 20px auto;
+}
+
+.canvas{
+	border: 1px solid black;
+	height: 200px;
+	margin-bottom: 20px;
+}
